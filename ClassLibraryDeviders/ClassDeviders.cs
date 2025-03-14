@@ -4,23 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibraryDeviders
+namespace ClassLibraryDividers
 {
-    public class ClassDeviders
+    public class ClassDividers
     {
         /// <summary>
         /// Поиск делителей числа
         /// </summary>
         /// <param name="N">целое число</param>
         /// <returns>HashSet из делителей</returns>
-        public static HashSet<int> Deviders(int N)
+        public static HashSet<int> Dividers(int N)
         {
-            //проверка числа
-            if (N < 1)
-                throw new Exception("Число ненатуральное");
-
             //массив с уникальными делителями
-            HashSet<int> devides = new HashSet<int>();
+            HashSet<int> divides = new HashSet<int>();
 
             //ускорение вычислений путём уменьшения границы
             int sqrtN = (int)Math.Floor(Math.Sqrt(N));
@@ -28,11 +24,11 @@ namespace ClassLibraryDeviders
             for (int i = 1; i <= sqrtN; i++)
                 if (N % i == 0)
                 {
-                    devides.Add(N / i);
-                    devides.Add(i);
+                    divides.Add(N / i);
+                    divides.Add(i);
                 }
 
-            return devides;
+            return divides;
         }
 
         /// <summary>
@@ -41,14 +37,8 @@ namespace ClassLibraryDeviders
         /// <param name="m">левый конец отрезка</param>
         /// <param name="n">правый конец отрезка</param>
         /// <returns>список найденных чисел</returns>
-        /// <exception cref="Exception"></exception>
-        public static List<int> FiveDeviders(int m, int n)
+        public static List<int> FiveDividers(int m, int n)
         {
-            if (m > n)
-                throw new Exception("Левый конец отрезка не может быть больше правого");
-            else if (m < 0 && n < 0)
-                throw new Exception("Ненатуральное число содержится в отрезке");
-
             //список чисел с 5 делителями
             List<int> MasD = new List<int>();
 
@@ -74,10 +64,6 @@ namespace ClassLibraryDeviders
         /// <returns>N-ое простое число</returns>
         public static int Prost(int n)
         {
-            //проверка входных данных
-            if (n < 1)
-                throw new Exception("Нахождение простого числа невозможно");
-
             //объявление переменных
             List<int> prostmas = new List<int>();
             int num = 3, key = 1;
@@ -113,23 +99,124 @@ namespace ClassLibraryDeviders
         /// <returns>список простых делителей</returns>
         public static List<int> Factoria(int N)
         {
-            List<int> prostdeviders = new List<int>();
-            int num = 1, prdev;
+            List<int> prostdividers = new List<int>();
+            int num = 1, prdiv;
 
             while (N > 1)
             {
-                prdev = Prost(num);
+                prdiv = Prost(num);
 
-                while (N % prdev == 0)
+                while (N % prdiv == 0)
                 {
-                    prostdeviders.Add(prdev);
-                    N /= prdev;
+                    prostdividers.Add(prdiv);
+                    N /= prdiv;
                 }
 
                 num++;
             }
 
-            return prostdeviders;
+            return prostdividers;
+        }
+
+        /// <summary>
+        /// Поиск первых N простых чисел
+        /// </summary>
+        /// <param name="N">кол-во простых чисел</param>
+        /// <returns>список простых чисел</returns>
+        public static List<int> ProstDiv(int N)
+        {
+            List <int> prostdiv = new List<int>();
+            int num = 3;
+            prostdiv.Add(2);
+
+            while (prostdiv.Count < N)
+            {
+                if (Dividers(num).Count == 2)
+                    prostdiv.Add(num);
+
+                num+=2;
+            }
+
+            return prostdiv;
+        }
+
+        /// <summary>
+        /// Поиск первых N простых чисел (алгоритм Решето Эратосфена)
+        /// </summary>
+        /// <param name="N">кол-во простых чисел</param>
+        /// <returns>список простых чисел</returns>
+        public static List<int> ProstDivEr(int N)
+        {
+            //объявление переменных
+            List<int> prostmas = new List<int>();
+            int num = 3;
+            bool flag;
+            prostmas.Add(2);
+
+            while (prostmas.Count < N)
+            {
+                flag = true;
+
+                foreach (int i in prostmas)
+                    if (num % i == 0)
+                    {
+                        flag = false;
+                        break;
+                    }
+
+                if (flag)
+                    prostmas.Add(num);
+
+                num += 2;
+            }
+
+            return prostmas;
+        }
+
+        /// <summary>
+        /// Поиск наибольшего общего делителя (алгоритм Евклида)
+        /// </summary>
+        /// <param name="m">первое число (большее)</param>
+        /// <param name="n">второе число (меньшее)</param>
+        /// <returns>наибольший общий делитель 2-х чисел</returns>
+        public static int NOD(int m, int n)
+        {
+            if (n > m)
+            {
+                int temp = m;
+                m = n;
+                n = temp;
+            }
+
+            int nod = n;
+
+            while (m % n != 0)
+            {
+                m %= n;
+
+                if (n > m)
+                {
+                    int temper = m;
+                    m = n;
+                    n = temper;
+                }
+
+                nod = n;
+            }
+
+            return nod;
+        }
+
+        /// <summary>
+        /// Наименьшее общее кратное
+        /// </summary>
+        /// <param name="m">первое число</param>
+        /// <param name="n">второе число</param>
+        /// <returns>наименьшее общее кратное 2-х чисел</returns>
+        public static int NOK(int m, int n)
+        {
+            int nok = m * n / NOD(m, n);
+            return nok;
         }
     }
 }

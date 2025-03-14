@@ -11,6 +11,7 @@ namespace ConsoleAppTester
     {
         static void Main(string[] args)
         {
+            //АПААА проверка 
             //Console.WriteLine(ClassDividers.Prost(4));
 
             //foreach (int i in ClassDividers.Factoria(180))

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -55,6 +56,8 @@
             this.label15 = new System.Windows.Forms.Label();
             this.toolTip3 = new System.Windows.Forms.ToolTip(this.components);
             this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -337,12 +340,36 @@
             this.label16.TabIndex = 22;
             this.label16.Text = "Задачи:";
             // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Black;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label17.Location = new System.Drawing.Point(12, 15);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(150, 42);
+            this.label17.TabIndex = 23;
+            this.label17.Text = "ыфывы";
+            this.label17.Click += new System.EventHandler(this.label17_Click);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Black;
+            this.label19.Font = new System.Drawing.Font("Century Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label19.ForeColor = System.Drawing.SystemColors.Control;
+            this.label19.Location = new System.Drawing.Point(-27, 9);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(2413, 44);
+            this.label19.TabIndex = 25;
+            this.label19.Text = resources.GetString("label19.Text");
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(1069, 582);
+            this.ClientSize = new System.Drawing.Size(1200, 582);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -366,6 +393,9 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label15);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label19);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Делители";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
@@ -403,6 +433,8 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.ToolTip toolTip3;
         private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label19;
     }
 }
 

@@ -44,20 +44,21 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.buttonTask1 = new System.Windows.Forms.Button();
+            this.buttonTask2 = new System.Windows.Forms.Button();
+            this.buttonTask3 = new System.Windows.Forms.Button();
+            this.buttonTask4 = new System.Windows.Forms.Button();
+            this.buttonTask5 = new System.Windows.Forms.Button();
+            this.buttonTask6 = new System.Windows.Forms.Button();
+            this.buttonTask7 = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
             this.label15 = new System.Windows.Forms.Label();
             this.toolTip3 = new System.Windows.Forms.ToolTip(this.components);
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.panelTaskContainer = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // label1
@@ -68,8 +69,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Location = new System.Drawing.Point(-105, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 44);
+            this.label1.Size = new System.Drawing.Size(2413, 44);
             this.label1.TabIndex = 0;
+            this.label1.Text = resources.GetString("label1.Text");
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -215,103 +217,110 @@
             this.label14.TabIndex = 13;
             this.label14.Text = "ыфывы";
             // 
-            // button1
+            // buttonTask1
             // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(19, 60);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 42);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Задача 1";
-            this.toolTip1.SetToolTip(this.button1, "Делители числа N");
-            this.button1.UseVisualStyleBackColor = false;
+            this.buttonTask1.BackColor = System.Drawing.Color.Black;
+            this.buttonTask1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonTask1.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.buttonTask1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonTask1.Location = new System.Drawing.Point(19, 60);
+            this.buttonTask1.Name = "buttonTask1";
+            this.buttonTask1.Size = new System.Drawing.Size(133, 42);
+            this.buttonTask1.TabIndex = 14;
+            this.buttonTask1.Text = "Задача 1";
+            this.toolTip1.SetToolTip(this.buttonTask1, "Делители числа N");
+            this.buttonTask1.UseVisualStyleBackColor = false;
+            this.buttonTask1.Click += new System.EventHandler(this.buttonTask1_Click);
             // 
-            // button2
+            // buttonTask2
             // 
-            this.button2.BackColor = System.Drawing.Color.Black;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(19, 108);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(133, 42);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Задача 2";
-            this.toolTip1.SetToolTip(this.button2, "Все числа с различными делителями, равным 5");
-            this.button2.UseVisualStyleBackColor = false;
+            this.buttonTask2.BackColor = System.Drawing.Color.Black;
+            this.buttonTask2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonTask2.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.buttonTask2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonTask2.Location = new System.Drawing.Point(19, 108);
+            this.buttonTask2.Name = "buttonTask2";
+            this.buttonTask2.Size = new System.Drawing.Size(133, 42);
+            this.buttonTask2.TabIndex = 15;
+            this.buttonTask2.Text = "Задача 2";
+            this.toolTip1.SetToolTip(this.buttonTask2, "Все числа с различными делителями, равным 5");
+            this.buttonTask2.UseVisualStyleBackColor = false;
+            this.buttonTask2.Click += new System.EventHandler(this.buttonTask2_Click);
             // 
-            // button3
+            // buttonTask3
             // 
-            this.button3.BackColor = System.Drawing.Color.Black;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(19, 156);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(133, 42);
-            this.button3.TabIndex = 16;
-            this.button3.Text = "Задача 3";
-            this.toolTip1.SetToolTip(this.button3, "Факторизация N");
-            this.button3.UseVisualStyleBackColor = false;
+            this.buttonTask3.BackColor = System.Drawing.Color.Black;
+            this.buttonTask3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonTask3.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.buttonTask3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonTask3.Location = new System.Drawing.Point(19, 156);
+            this.buttonTask3.Name = "buttonTask3";
+            this.buttonTask3.Size = new System.Drawing.Size(133, 42);
+            this.buttonTask3.TabIndex = 16;
+            this.buttonTask3.Text = "Задача 3";
+            this.toolTip1.SetToolTip(this.buttonTask3, "Факторизация N");
+            this.buttonTask3.UseVisualStyleBackColor = false;
+            this.buttonTask3.Click += new System.EventHandler(this.buttonTask3_Click);
             // 
-            // button4
+            // buttonTask4
             // 
-            this.button4.BackColor = System.Drawing.Color.Black;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(19, 204);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(133, 42);
-            this.button4.TabIndex = 17;
-            this.button4.Text = "Задача 4";
-            this.toolTip1.SetToolTip(this.button4, "Первые N простые числа, основанные на определении простого числа ");
-            this.button4.UseVisualStyleBackColor = false;
+            this.buttonTask4.BackColor = System.Drawing.Color.Black;
+            this.buttonTask4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonTask4.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.buttonTask4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonTask4.Location = new System.Drawing.Point(19, 204);
+            this.buttonTask4.Name = "buttonTask4";
+            this.buttonTask4.Size = new System.Drawing.Size(133, 42);
+            this.buttonTask4.TabIndex = 17;
+            this.buttonTask4.Text = "Задача 4";
+            this.toolTip1.SetToolTip(this.buttonTask4, "Первые N простые числа, основанные на определении простого числа ");
+            this.buttonTask4.UseVisualStyleBackColor = false;
+            this.buttonTask4.Click += new System.EventHandler(this.buttonTask4_Click);
             // 
-            // button5
+            // buttonTask5
             // 
-            this.button5.BackColor = System.Drawing.Color.Black;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button5.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(19, 252);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(133, 42);
-            this.button5.TabIndex = 18;
-            this.button5.Text = "Задача 5";
-            this.toolTip1.SetToolTip(this.button5, "Первые N простые числа, на алгоритме Решето Эратосфена");
-            this.button5.UseVisualStyleBackColor = false;
+            this.buttonTask5.BackColor = System.Drawing.Color.Black;
+            this.buttonTask5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonTask5.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.buttonTask5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonTask5.Location = new System.Drawing.Point(19, 252);
+            this.buttonTask5.Name = "buttonTask5";
+            this.buttonTask5.Size = new System.Drawing.Size(133, 42);
+            this.buttonTask5.TabIndex = 18;
+            this.buttonTask5.Text = "Задача 5";
+            this.toolTip1.SetToolTip(this.buttonTask5, "Первые N простые числа, на алгоритме Решето Эратосфена");
+            this.buttonTask5.UseVisualStyleBackColor = false;
+            this.buttonTask5.Click += new System.EventHandler(this.buttonTask5_Click);
             // 
-            // button6
+            // buttonTask6
             // 
-            this.button6.BackColor = System.Drawing.Color.Black;
-            this.button6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button6.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(19, 302);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(133, 42);
-            this.button6.TabIndex = 19;
-            this.button6.Text = "Задача6";
-            this.toolTip1.SetToolTip(this.button6, "Найти NOD(N, M), на алгоритме Эвклида");
-            this.button6.UseVisualStyleBackColor = false;
+            this.buttonTask6.BackColor = System.Drawing.Color.Black;
+            this.buttonTask6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonTask6.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.buttonTask6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonTask6.Location = new System.Drawing.Point(19, 302);
+            this.buttonTask6.Name = "buttonTask6";
+            this.buttonTask6.Size = new System.Drawing.Size(133, 42);
+            this.buttonTask6.TabIndex = 19;
+            this.buttonTask6.Text = "Задача6";
+            this.toolTip1.SetToolTip(this.buttonTask6, "Найти NOD(N, M), на алгоритме Эвклида");
+            this.buttonTask6.UseVisualStyleBackColor = false;
+            this.buttonTask6.Click += new System.EventHandler(this.buttonTask6_Click);
             // 
-            // button7
+            // buttonTask7
             // 
-            this.button7.BackColor = System.Drawing.Color.Black;
-            this.button7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button7.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(19, 350);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(133, 42);
-            this.button7.TabIndex = 20;
-            this.button7.Text = "Задача 7";
-            this.toolTip1.SetToolTip(this.button7, "Найти NOK(N, M)");
-            this.button7.UseVisualStyleBackColor = false;
+            this.buttonTask7.BackColor = System.Drawing.Color.Black;
+            this.buttonTask7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonTask7.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.buttonTask7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonTask7.Location = new System.Drawing.Point(19, 350);
+            this.buttonTask7.Name = "buttonTask7";
+            this.buttonTask7.Size = new System.Drawing.Size(133, 42);
+            this.buttonTask7.TabIndex = 20;
+            this.buttonTask7.Text = "Задача 7";
+            this.toolTip1.SetToolTip(this.buttonTask7, "Найти NOK(N, M)");
+            this.buttonTask7.UseVisualStyleBackColor = false;
+            this.buttonTask7.Click += new System.EventHandler(this.buttonTask7_Click);
             // 
             // toolTip2
             // 
@@ -345,39 +354,49 @@
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.Black;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label17.Location = new System.Drawing.Point(12, 15);
+            this.label17.Location = new System.Drawing.Point(12, 585);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(150, 42);
             this.label17.TabIndex = 23;
             this.label17.Text = "ыфывы";
-            this.label17.Click += new System.EventHandler(this.label17_Click);
             // 
-            // label19
+            // label18
             // 
-            this.label19.AutoSize = true;
-            this.label19.BackColor = System.Drawing.Color.Black;
-            this.label19.Font = new System.Drawing.Font("Century Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label19.ForeColor = System.Drawing.SystemColors.Control;
-            this.label19.Location = new System.Drawing.Point(-27, 9);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(2413, 44);
-            this.label19.TabIndex = 25;
-            this.label19.Text = resources.GetString("label19.Text");
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Black;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label18.Location = new System.Drawing.Point(12, 606);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(150, 42);
+            this.label18.TabIndex = 24;
+            this.label18.Text = "ыфывы";
+            // 
+            // panelTaskContainer
+            // 
+            this.panelTaskContainer.BackColor = System.Drawing.Color.Transparent;
+            this.panelTaskContainer.Location = new System.Drawing.Point(178, 64);
+            this.panelTaskContainer.Name = "panelTaskContainer";
+            this.panelTaskContainer.Size = new System.Drawing.Size(872, 565);
+            this.panelTaskContainer.TabIndex = 25;
+            this.panelTaskContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTaskContainer_Paint);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(1200, 582);
+            this.ClientSize = new System.Drawing.Size(1062, 641);
+            this.Controls.Add(this.panelTaskContainer);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonTask7);
+            this.Controls.Add(this.buttonTask6);
+            this.Controls.Add(this.buttonTask5);
+            this.Controls.Add(this.buttonTask4);
+            this.Controls.Add(this.buttonTask3);
+            this.Controls.Add(this.buttonTask2);
+            this.Controls.Add(this.buttonTask1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
@@ -393,8 +412,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label19);
+            this.ForeColor = System.Drawing.Color.Black;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Делители";
@@ -421,20 +439,21 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button buttonTask1;
+        private System.Windows.Forms.Button buttonTask2;
+        private System.Windows.Forms.Button buttonTask3;
+        private System.Windows.Forms.Button buttonTask4;
+        private System.Windows.Forms.Button buttonTask5;
+        private System.Windows.Forms.Button buttonTask6;
+        private System.Windows.Forms.Button buttonTask7;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.ToolTip toolTip2;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.ToolTip toolTip3;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Panel panelTaskContainer;
     }
 }
 

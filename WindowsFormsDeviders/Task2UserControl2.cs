@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ClassLibraryDividers;
 
 namespace WindowsFormsDeviders
 {
@@ -20,6 +21,21 @@ namespace WindowsFormsDeviders
         private void textBoxM_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void buttonSearchTask2_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            if (int .TryParse(textBoxM.Text, out int m) && int .TryParse(textBoxN.Text, out int n))
+            {
+                var numbersWithFiveDividers = ClassDividers.FiveDividers(m, n);
+                foreach (var numbers in numbersWithFiveDividers)
+                { listBox1.Items.Add(numbers);}
+            }
+            else
+            {
+                MessageBox.Show("Пожалуйста, введите целые числа для M и N.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

@@ -33,11 +33,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.textBoxN = new System.Windows.Forms.TextBox();
             this.textBoxM = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.buttonSearchTask2 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -48,9 +49,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(44, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(438, 28);
+            this.label1.Size = new System.Drawing.Size(423, 28);
             this.label1.TabIndex = 14;
-            this.label1.Text = "Задача 6. Нахоождение NOD(N, M)";
+            this.label1.Text = "Задача 6. Нахождение NOD(N, M)";
             // 
             // label5
             // 
@@ -79,7 +80,7 @@
             this.label3.BackColor = System.Drawing.Color.Black;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(44, 68);
+            this.label3.Location = new System.Drawing.Point(44, 90);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(169, 30);
             this.label3.TabIndex = 15;
@@ -91,41 +92,31 @@
             this.label2.BackColor = System.Drawing.Color.Black;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(44, 101);
+            this.label2.Location = new System.Drawing.Point(44, 123);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(167, 30);
             this.label2.TabIndex = 16;
             this.label2.Text = "Введите M:   ";
             // 
+            // textBoxN
+            // 
+            this.textBoxN.BackColor = System.Drawing.SystemColors.Window;
+            this.textBoxN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxN.Location = new System.Drawing.Point(219, 90);
+            this.textBoxN.Name = "textBoxN";
+            this.textBoxN.Size = new System.Drawing.Size(248, 27);
+            this.textBoxN.TabIndex = 17;
+            this.textBoxN.Text = "0";
+            // 
             // textBoxM
             // 
             this.textBoxM.BackColor = System.Drawing.SystemColors.Window;
             this.textBoxM.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxM.Location = new System.Drawing.Point(219, 68);
+            this.textBoxM.Location = new System.Drawing.Point(217, 123);
             this.textBoxM.Name = "textBoxM";
-            this.textBoxM.Size = new System.Drawing.Size(263, 27);
-            this.textBoxM.TabIndex = 17;
+            this.textBoxM.Size = new System.Drawing.Size(250, 27);
+            this.textBoxM.TabIndex = 18;
             this.textBoxM.Text = "0";
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(217, 101);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(265, 27);
-            this.textBox1.TabIndex = 18;
-            this.textBox1.Text = "0";
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox2.Location = new System.Drawing.Point(217, 134);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(265, 27);
-            this.textBox2.TabIndex = 19;
-            this.textBox2.Text = "0";
             // 
             // label6
             // 
@@ -133,7 +124,7 @@
             this.label6.BackColor = System.Drawing.Color.Black;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label6.ForeColor = System.Drawing.SystemColors.Control;
-            this.label6.Location = new System.Drawing.Point(44, 134);
+            this.label6.Location = new System.Drawing.Point(44, 156);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(170, 30);
             this.label6.TabIndex = 20;
@@ -144,23 +135,46 @@
             this.buttonSearchTask2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.buttonSearchTask2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonSearchTask2.ForeColor = System.Drawing.Color.Transparent;
-            this.buttonSearchTask2.Location = new System.Drawing.Point(488, 99);
+            this.buttonSearchTask2.Location = new System.Drawing.Point(473, 121);
             this.buttonSearchTask2.Name = "buttonSearchTask2";
             this.buttonSearchTask2.Size = new System.Drawing.Size(142, 39);
             this.buttonSearchTask2.TabIndex = 21;
             this.buttonSearchTask2.Text = "Вести";
             this.buttonSearchTask2.UseVisualStyleBackColor = false;
+            this.buttonSearchTask2.Click += new System.EventHandler(this.buttonSearchTask2_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox1.Location = new System.Drawing.Point(217, 159);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(250, 27);
+            this.textBox1.TabIndex = 22;
+            this.textBox1.Text = "0";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label7.Location = new System.Drawing.Point(43, 59);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(182, 31);
+            this.label7.TabIndex = 23;
+            this.label7.Text = "                        ";
             // 
             // Task6UserControl6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.buttonSearchTask2);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.textBoxM);
+            this.Controls.Add(this.textBoxN);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -180,10 +194,11 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBoxN;
         private System.Windows.Forms.TextBox textBoxM;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button buttonSearchTask2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label7;
     }
 }

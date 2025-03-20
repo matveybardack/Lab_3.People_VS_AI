@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ClassLibraryDividers;
 
 namespace WindowsFormsDeviders
 {
@@ -29,10 +30,33 @@ namespace WindowsFormsDeviders
 
         private void buttonSearchTask1_Click(object sender, EventArgs e)
         {
-            
+            listBox1Dividers.Items.Clear();
+            if (int .TryParse(textBox1.Text, out int number))
+            {
+                var dividers = ClassDividers.Dividers(number);
+                var sortDivaiders = dividers.OrderBy(x => x);
+                foreach (var divider in sortDivaiders)
+                {
+                    listBox1Dividers.Items.Add(divider);
+                }   
+            }
+            else
+            {
+                MessageBox.Show("Пожалуйста, введите целое число.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Task1UserControl1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void listBox1Dividers_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

@@ -32,11 +32,11 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.buttonSearchTask1 = new System.Windows.Forms.Button();
+            this.buttonFindDividers = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.listBox1Dividers = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -87,29 +87,18 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Его делители:";
             // 
-            // textBox2
+            // buttonFindDividers
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox2.Location = new System.Drawing.Point(227, 132);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(400, 193);
-            this.textBox2.TabIndex = 3;
-            this.textBox2.Text = "0";
-            // 
-            // buttonSearchTask1
-            // 
-            this.buttonSearchTask1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonSearchTask1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSearchTask1.ForeColor = System.Drawing.Color.Transparent;
-            this.buttonSearchTask1.Location = new System.Drawing.Point(422, 82);
-            this.buttonSearchTask1.Name = "buttonSearchTask1";
-            this.buttonSearchTask1.Size = new System.Drawing.Size(205, 39);
-            this.buttonSearchTask1.TabIndex = 5;
-            this.buttonSearchTask1.Text = "Найти";
-            this.buttonSearchTask1.UseVisualStyleBackColor = false;
-            this.buttonSearchTask1.Click += new System.EventHandler(this.buttonSearchTask1_Click);
+            this.buttonFindDividers.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.buttonFindDividers.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonFindDividers.ForeColor = System.Drawing.Color.Transparent;
+            this.buttonFindDividers.Location = new System.Drawing.Point(422, 82);
+            this.buttonFindDividers.Name = "buttonFindDividers";
+            this.buttonFindDividers.Size = new System.Drawing.Size(205, 39);
+            this.buttonFindDividers.TabIndex = 5;
+            this.buttonFindDividers.Text = "Найти";
+            this.buttonFindDividers.UseVisualStyleBackColor = false;
+            this.buttonFindDividers.Click += new System.EventHandler(this.buttonSearchTask1_Click);
             // 
             // label4
             // 
@@ -144,22 +133,34 @@
             this.label6.TabIndex = 8;
             this.label6.Text = "                        ";
             // 
+            // listBox1Dividers
+            // 
+            this.listBox1Dividers.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.listBox1Dividers.FormattingEnabled = true;
+            this.listBox1Dividers.ItemHeight = 21;
+            this.listBox1Dividers.Location = new System.Drawing.Point(227, 132);
+            this.listBox1Dividers.Name = "listBox1Dividers";
+            this.listBox1Dividers.Size = new System.Drawing.Size(87, 235);
+            this.listBox1Dividers.TabIndex = 9;
+            this.listBox1Dividers.SelectedIndexChanged += new System.EventHandler(this.listBox1Dividers_SelectedIndexChanged);
+            // 
             // Task1UserControl1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
+            this.Controls.Add(this.listBox1Dividers);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.buttonSearchTask1);
+            this.Controls.Add(this.buttonFindDividers);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "Task1UserControl1";
             this.Size = new System.Drawing.Size(651, 370);
+            this.Load += new System.EventHandler(this.Task1UserControl1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -171,10 +172,10 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button buttonSearchTask1;
+        private System.Windows.Forms.Button buttonFindDividers;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ListBox listBox1Dividers;
     }
 }

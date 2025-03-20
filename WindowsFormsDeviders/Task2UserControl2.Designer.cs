@@ -36,9 +36,9 @@
             this.textBoxM = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.textBoxN = new System.Windows.Forms.TextBox();
-            this.buttonSearchTask2 = new System.Windows.Forms.Button();
+            this.buttonFindFiveDividers = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -130,17 +130,18 @@
             this.textBoxN.TabIndex = 13;
             this.textBoxN.Text = "0";
             // 
-            // buttonSearchTask2
+            // buttonFindFiveDividers
             // 
-            this.buttonSearchTask2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonSearchTask2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSearchTask2.ForeColor = System.Drawing.Color.Transparent;
-            this.buttonSearchTask2.Location = new System.Drawing.Point(555, 121);
-            this.buttonSearchTask2.Name = "buttonSearchTask2";
-            this.buttonSearchTask2.Size = new System.Drawing.Size(142, 39);
-            this.buttonSearchTask2.TabIndex = 14;
-            this.buttonSearchTask2.Text = "Найти";
-            this.buttonSearchTask2.UseVisualStyleBackColor = false;
+            this.buttonFindFiveDividers.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.buttonFindFiveDividers.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonFindFiveDividers.ForeColor = System.Drawing.Color.Transparent;
+            this.buttonFindFiveDividers.Location = new System.Drawing.Point(555, 121);
+            this.buttonFindFiveDividers.Name = "buttonFindFiveDividers";
+            this.buttonFindFiveDividers.Size = new System.Drawing.Size(142, 39);
+            this.buttonFindFiveDividers.TabIndex = 14;
+            this.buttonFindFiveDividers.Text = "Найти";
+            this.buttonFindFiveDividers.UseVisualStyleBackColor = false;
+            this.buttonFindFiveDividers.Click += new System.EventHandler(this.buttonSearchTask2_Click);
             // 
             // label7
             // 
@@ -154,25 +155,24 @@
             this.label7.TabIndex = 15;
             this.label7.Text = "Подходящие числа:";
             // 
-            // textBox2
+            // listBox1
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox2.Location = new System.Drawing.Point(309, 168);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(388, 172);
-            this.textBox2.TabIndex = 16;
-            this.textBox2.Text = "0";
+            this.listBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 21;
+            this.listBox1.Location = new System.Drawing.Point(314, 168);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(68, 193);
+            this.listBox1.TabIndex = 16;
             // 
             // Task2UserControl2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.buttonSearchTask2);
+            this.Controls.Add(this.buttonFindFiveDividers);
             this.Controls.Add(this.textBoxN);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBoxM);
@@ -198,8 +198,8 @@
         private System.Windows.Forms.TextBox textBoxM;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBoxN;
-        private System.Windows.Forms.Button buttonSearchTask2;
+        private System.Windows.Forms.Button buttonFindFiveDividers;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }

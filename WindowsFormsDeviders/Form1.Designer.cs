@@ -302,7 +302,7 @@
             this.buttonTask6.Name = "buttonTask6";
             this.buttonTask6.Size = new System.Drawing.Size(133, 42);
             this.buttonTask6.TabIndex = 19;
-            this.buttonTask6.Text = "Задача6";
+            this.buttonTask6.Text = "Задача 6";
             this.toolTip1.SetToolTip(this.buttonTask6, "Найти NOD(N, M), на алгоритме Эвклида");
             this.buttonTask6.UseVisualStyleBackColor = false;
             this.buttonTask6.Click += new System.EventHandler(this.buttonTask6_Click);
@@ -376,7 +376,7 @@
             this.panelTaskContainer.BackColor = System.Drawing.Color.Transparent;
             this.panelTaskContainer.Location = new System.Drawing.Point(178, 64);
             this.panelTaskContainer.Name = "panelTaskContainer";
-            this.panelTaskContainer.Size = new System.Drawing.Size(872, 565);
+            this.panelTaskContainer.Size = new System.Drawing.Size(872, 451);
             this.panelTaskContainer.TabIndex = 25;
             this.panelTaskContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTaskContainer_Paint);
             // 
@@ -385,7 +385,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(1062, 641);
+            this.ClientSize = new System.Drawing.Size(1061, 550);
             this.Controls.Add(this.panelTaskContainer);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);

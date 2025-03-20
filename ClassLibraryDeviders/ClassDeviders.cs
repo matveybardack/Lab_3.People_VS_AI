@@ -115,6 +115,8 @@ namespace ClassLibraryDividers
                 num++;
             }
 
+            prostdividers.Sort();
+
             return prostdividers;
         }
 

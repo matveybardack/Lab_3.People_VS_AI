@@ -15,7 +15,7 @@ namespace ConsoleAppTester
             //Console.WriteLine(ClassDividers.Prost(4));
 
             //foreach (int i in ClassDividers.Factoria(180))
-            //    Console.Write("{0} ", i);
+                //Console.Write("{0} ", i);
 
             //foreach (int i in ClassDividers.FiveDeviders(1, 100))
             //    Console.Write("{0} ", i);

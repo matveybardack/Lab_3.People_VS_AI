@@ -45,6 +45,9 @@ namespace ClassLibraryDividers
             //минимальный корень 4-ой степени числа из отрезка
             int mini = (int)Math.Ceiling(Math.Sqrt(Math.Sqrt(m)));
 
+            if (mini == 1)
+                mini++;
+
             int mid = (int)Math.Pow(mini, 4);
 
             while (mid <= n)

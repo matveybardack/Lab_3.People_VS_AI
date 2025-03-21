@@ -47,9 +47,10 @@
             this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(44, 31);
+            this.label1.Location = new System.Drawing.Point(59, 38);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(423, 28);
+            this.label1.Size = new System.Drawing.Size(528, 37);
             this.label1.TabIndex = 14;
             this.label1.Text = "Задача 6. Нахождение NOD(N, M)";
             // 
@@ -57,9 +58,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label5.Location = new System.Drawing.Point(3, 31);
+            this.label5.Location = new System.Drawing.Point(4, 38);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.Size = new System.Drawing.Size(44, 16);
             this.label5.TabIndex = 13;
             this.label5.Text = "label5";
             // 
@@ -68,9 +70,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label4.Location = new System.Drawing.Point(3, 0);
+            this.label4.Location = new System.Drawing.Point(4, 0);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(182, 31);
+            this.label4.Size = new System.Drawing.Size(233, 39);
             this.label4.TabIndex = 12;
             this.label4.Text = "                        ";
             // 
@@ -80,9 +83,10 @@
             this.label3.BackColor = System.Drawing.Color.Black;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(44, 90);
+            this.label3.Location = new System.Drawing.Point(59, 111);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(169, 30);
+            this.label3.Size = new System.Drawing.Size(203, 37);
             this.label3.TabIndex = 15;
             this.label3.Text = "Введите N:    ";
             // 
@@ -92,9 +96,10 @@
             this.label2.BackColor = System.Drawing.Color.Black;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(44, 123);
+            this.label2.Location = new System.Drawing.Point(59, 151);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(167, 30);
+            this.label2.Size = new System.Drawing.Size(202, 37);
             this.label2.TabIndex = 16;
             this.label2.Text = "Введите M:   ";
             // 
@@ -102,9 +107,10 @@
             // 
             this.textBoxN.BackColor = System.Drawing.SystemColors.Window;
             this.textBoxN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxN.Location = new System.Drawing.Point(219, 90);
+            this.textBoxN.Location = new System.Drawing.Point(292, 111);
+            this.textBoxN.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxN.Name = "textBoxN";
-            this.textBoxN.Size = new System.Drawing.Size(248, 27);
+            this.textBoxN.Size = new System.Drawing.Size(329, 32);
             this.textBoxN.TabIndex = 17;
             this.textBoxN.Text = "0";
             // 
@@ -112,9 +118,10 @@
             // 
             this.textBoxM.BackColor = System.Drawing.SystemColors.Window;
             this.textBoxM.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxM.Location = new System.Drawing.Point(217, 123);
+            this.textBoxM.Location = new System.Drawing.Point(289, 151);
+            this.textBoxM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxM.Name = "textBoxM";
-            this.textBoxM.Size = new System.Drawing.Size(250, 27);
+            this.textBoxM.Size = new System.Drawing.Size(332, 32);
             this.textBoxM.TabIndex = 18;
             this.textBoxM.Text = "0";
             // 
@@ -124,9 +131,10 @@
             this.label6.BackColor = System.Drawing.Color.Black;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label6.ForeColor = System.Drawing.SystemColors.Control;
-            this.label6.Location = new System.Drawing.Point(44, 156);
+            this.label6.Location = new System.Drawing.Point(59, 192);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(170, 30);
+            this.label6.Size = new System.Drawing.Size(208, 37);
             this.label6.TabIndex = 20;
             this.label6.Text = "NOD(N, M)    ";
             // 
@@ -135,9 +143,10 @@
             this.buttonSearchTask2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.buttonSearchTask2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonSearchTask2.ForeColor = System.Drawing.Color.Transparent;
-            this.buttonSearchTask2.Location = new System.Drawing.Point(473, 121);
+            this.buttonSearchTask2.Location = new System.Drawing.Point(631, 149);
+            this.buttonSearchTask2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonSearchTask2.Name = "buttonSearchTask2";
-            this.buttonSearchTask2.Size = new System.Drawing.Size(142, 39);
+            this.buttonSearchTask2.Size = new System.Drawing.Size(189, 48);
             this.buttonSearchTask2.TabIndex = 21;
             this.buttonSearchTask2.Text = "Вести";
             this.buttonSearchTask2.UseVisualStyleBackColor = false;
@@ -147,9 +156,11 @@
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.Window;
             this.textBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(217, 159);
+            this.textBox1.Location = new System.Drawing.Point(289, 196);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(250, 27);
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(332, 32);
             this.textBox1.TabIndex = 22;
             this.textBox1.Text = "0";
             // 
@@ -158,15 +169,16 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label7.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label7.Location = new System.Drawing.Point(43, 59);
+            this.label7.Location = new System.Drawing.Point(57, 73);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(182, 31);
+            this.label7.Size = new System.Drawing.Size(233, 39);
             this.label7.TabIndex = 23;
             this.label7.Text = "                        ";
             // 
             // Task6UserControl6
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.Controls.Add(this.label7);
@@ -180,8 +192,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Task6UserControl6";
-            this.Size = new System.Drawing.Size(881, 505);
+            this.Size = new System.Drawing.Size(1175, 622);
             this.ResumeLayout(false);
             this.PerformLayout();
 

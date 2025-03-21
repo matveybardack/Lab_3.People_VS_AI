@@ -33,6 +33,12 @@ namespace WindowsFormsDeviders
             listBox1Dividers.Items.Clear();
             if (int .TryParse(textBox1.Text, out int number))
             {
+                if (number < 1)
+                {
+                    MessageBox.Show("Пожалуйста, введите натуральное число.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
                 var dividers = ClassDividers.Dividers(number);
                 var sortDivaiders = dividers.OrderBy(x => x);
                 foreach (var divider in sortDivaiders)
@@ -42,7 +48,7 @@ namespace WindowsFormsDeviders
             }
             else
             {
-                MessageBox.Show("Пожалуйста, введите целое число.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Пожалуйста, введите натуральное число.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

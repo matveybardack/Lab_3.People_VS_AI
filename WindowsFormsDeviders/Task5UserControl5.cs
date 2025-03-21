@@ -32,7 +32,7 @@ namespace WindowsFormsDeviders
             }
             else
             {
-                MessageBox.Show("Пожалуйста, введите натуральное число больше 0.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Пожалуйста, введите натуральное число.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

@@ -28,13 +28,25 @@ namespace WindowsFormsDeviders
             listBox1.Items.Clear();
             if (int .TryParse(textBoxM.Text, out int m) && int .TryParse(textBoxN.Text, out int n))
             {
+                if (m < 1 ||  n < 1)
+                {
+                    MessageBox.Show("Пожалуйста, введите натуральные числа для M и N.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                if (m > n)
+                {
+                    MessageBox.Show("Левый конец отрезка (M) должен быть не больше правого (N)", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
                 var numbersWithFiveDividers = ClassDividers.FiveDividers(m, n);
                 foreach (var numbers in numbersWithFiveDividers)
                 { listBox1.Items.Add(numbers);}
             }
             else
             {
-                MessageBox.Show("Пожалуйста, введите целые числа для M и N.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Пожалуйста, введите натуральные числа для M и N.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

@@ -23,12 +23,18 @@ namespace WindowsFormsDeviders
             
             if (int.TryParse(textBoxM.Text, out int m) && int.TryParse(textBoxN.Text, out int n))
             {
+                if (m < 1 || n < 1)
+                {
+                    MessageBox.Show("Пожалуйста, введите натуральные числа для m и n.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
                 int nod = ClassDividers.NOD(m, n);
-               textBox1.Text = nod.ToString();
+                textBox1.Text = nod.ToString();
             }
             else
             {
-                MessageBox.Show("Пожалуйста, введите целые числа для m и n.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Пожалуйста, введите натуральные числа для m и n.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

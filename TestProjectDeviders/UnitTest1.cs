@@ -24,7 +24,7 @@ namespace TestProjectDividers
         {
             int m = 1;
             int n = 100;
-            List<int> expected = new List<int>() { 1, 16, 81 };
+            List<int> expected = new List<int>() { 16, 81 };
 
             List<int> result = ClassDividers.FiveDividers(m, n);
             CollectionAssert.AreEqual(expected, result);

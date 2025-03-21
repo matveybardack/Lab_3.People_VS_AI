@@ -21,7 +21,7 @@ namespace WindowsFormsDeviders
 
         private void buttonSearchTask2_Click(object sender, EventArgs e)
         {
-            if (int.TryParse(textBoxN.Text, out int m) && int.TryParse(textBoxN.Text, out int n))
+            if (int.TryParse(textBoxM.Text, out int m) && int.TryParse(textBoxN.Text, out int n))
             {
                 if (m < 1 || n < 1)
                 {

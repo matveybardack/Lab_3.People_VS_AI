@@ -220,7 +220,7 @@ namespace ClassLibraryDividers
         /// <returns>наименьшее общее кратное 2-х чисел</returns>
         public static int NOK(int m, int n)
         {
-            int nok = m * n / NOD(m, n);
+            int nok = (m * n) / NOD(m, n);
             return nok;
         }
     }

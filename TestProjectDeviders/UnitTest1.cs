@@ -74,9 +74,9 @@ namespace TestProjectDividers
         [TestMethod]
         public void TestNOK()
         {
-            int m = 3;
-            int n = 11;
-            int expected = 33;
+            int m = 12;
+            int n = 34;
+            int expected = 204;
 
             int result = ClassDividers.NOK(m, n);
             Assert.AreEqual(expected, result);

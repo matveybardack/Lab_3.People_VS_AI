@@ -38,10 +38,10 @@ namespace WindowsFormsDeviders
             }
         }
 
-        private void buttonInfo6_Click(object sender, EventArgs e)
+        private void buttonInfo1_Click(object sender, EventArgs e)
         {
-            InfoForm1 infoForm1 = new InfoForm1(6);
-            infoForm1.ShowDialog();
+            InfoForm7 infoForm7 = new InfoForm7();
+            infoForm7.ShowDialog();
         }
     }
 }

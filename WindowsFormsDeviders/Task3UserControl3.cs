@@ -20,18 +20,13 @@ namespace WindowsFormsDeviders
 
         private void buttonSearchTask2_Click(object sender, EventArgs e)
         {
-            textBox1.Text = string.Empty;
-            if (int.TryParse(textBoxN.Text, out int N) && N > 1)
+            listBox1.Items.Clear();
+            if (int .TryParse(textBoxN.Text, out int N) && N > 1)
             {
                 var primeFactorio = ClassDividers.Factoria(N);
-                int i = 0;
                 foreach (var factor in primeFactorio)
                 {
-                    i++;
-                    if (i != primeFactorio.Count)
-                        textBox1.Text += String.Format("{0} * ", factor);
-                    else
-                        textBox1.Text += String.Format("{0}", factor);
+                    listBox1.Items.Add(factor);
                 }
             }
             else
@@ -40,10 +35,10 @@ namespace WindowsFormsDeviders
             }
         }
 
-        private void buttonInfo3_Click(object sender, EventArgs e)
+        private void buttonInfo1_Click(object sender, EventArgs e)
         {
-            InfoForm1 infoForm1 = new InfoForm1(2);
-            infoForm1.ShowDialog();
+            InfoForm3 infoForm3 = new InfoForm3();
+            infoForm3.ShowDialog();
         }
     }
 }

@@ -157,7 +157,7 @@
             // buttonInfo1
             // 
             this.buttonInfo1.Image = global::WindowsFormsDeviders.Properties.Resources.information_symbol_in_a_square1;
-            this.buttonInfo1.Location = new System.Drawing.Point(7, 38);
+            this.buttonInfo1.Location = new System.Drawing.Point(11, 38);
             this.buttonInfo1.Name = "buttonInfo1";
             this.buttonInfo1.Size = new System.Drawing.Size(36, 37);
             this.buttonInfo1.TabIndex = 10;

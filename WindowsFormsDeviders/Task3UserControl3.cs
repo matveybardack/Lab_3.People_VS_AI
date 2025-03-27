@@ -34,5 +34,11 @@ namespace WindowsFormsDeviders
                 MessageBox.Show("Пожалуйста, введите натуральное число больше 1.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void buttonInfo1_Click(object sender, EventArgs e)
+        {
+            InfoForm3 infoForm3 = new InfoForm3();
+            infoForm3.ShowDialog();
+        }
     }
 }

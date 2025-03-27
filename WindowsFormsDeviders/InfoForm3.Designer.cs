@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsDeviders
 {
-    partial class InfoForm1
+    partial class InfoForm3
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InfoForm1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InfoForm3));
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.buttonClose1 = new System.Windows.Forms.Button();
@@ -40,12 +40,12 @@
             this.label2.BackColor = System.Drawing.Color.Black;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(1, 26);
+            this.label2.Location = new System.Drawing.Point(13, 11);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(1044, 56);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Поиск делителей числа";
+            this.label2.Size = new System.Drawing.Size(1036, 56);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Факторизация числа";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
@@ -54,11 +54,11 @@
             this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(11, 118);
+            this.label1.Location = new System.Drawing.Point(19, 95);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1022, 336);
-            this.label1.TabIndex = 2;
+            this.label1.Size = new System.Drawing.Size(1030, 336);
+            this.label1.TabIndex = 3;
             this.label1.Text = resources.GetString("label1.Text");
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -69,27 +69,26 @@
             this.buttonClose1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonClose1.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.buttonClose1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonClose1.Location = new System.Drawing.Point(357, 467);
+            this.buttonClose1.Location = new System.Drawing.Point(378, 449);
             this.buttonClose1.Margin = new System.Windows.Forms.Padding(4);
             this.buttonClose1.Name = "buttonClose1";
             this.buttonClose1.Size = new System.Drawing.Size(332, 52);
-            this.buttonClose1.TabIndex = 15;
+            this.buttonClose1.TabIndex = 16;
             this.buttonClose1.Text = "Закрыть справку";
             this.buttonClose1.UseVisualStyleBackColor = false;
-            this.buttonClose1.Click += new System.EventHandler(this.buttonInfo1_Click);
+            this.buttonClose1.Click += new System.EventHandler(this.buttonClose1_Click);
             // 
-            // InfoForm1
+            // InfoForm3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(1043, 532);
+            this.ClientSize = new System.Drawing.Size(1060, 527);
             this.Controls.Add(this.buttonClose1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
-            this.Name = "InfoForm1";
-            this.Text = "Справка для задачи №1";
-            this.Load += new System.EventHandler(this.InfoForm1_Load);
+            this.Name = "InfoForm3";
+            this.Text = "Справка для задачи №3";
             this.ResumeLayout(false);
 
         }

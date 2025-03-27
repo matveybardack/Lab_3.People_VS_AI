@@ -39,6 +39,7 @@
             this.buttonSearchTask2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.buttonInfo1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -52,7 +53,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(528, 37);
             this.label1.TabIndex = 14;
-            this.label1.Text = "Задача 6. Нахождение NOD(N, M)";
+            this.label1.Text = "Задача 6. Нахождение НОД(N, M)";
             // 
             // label5
             // 
@@ -108,7 +109,7 @@
             this.textBoxN.BackColor = System.Drawing.SystemColors.Window;
             this.textBoxN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxN.Location = new System.Drawing.Point(292, 111);
-            this.textBoxN.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxN.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxN.Name = "textBoxN";
             this.textBoxN.Size = new System.Drawing.Size(329, 32);
             this.textBoxN.TabIndex = 17;
@@ -119,7 +120,7 @@
             this.textBoxM.BackColor = System.Drawing.SystemColors.Window;
             this.textBoxM.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxM.Location = new System.Drawing.Point(289, 151);
-            this.textBoxM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxM.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxM.Name = "textBoxM";
             this.textBoxM.Size = new System.Drawing.Size(332, 32);
             this.textBoxM.TabIndex = 18;
@@ -134,9 +135,9 @@
             this.label6.Location = new System.Drawing.Point(59, 192);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(208, 37);
+            this.label6.Size = new System.Drawing.Size(206, 37);
             this.label6.TabIndex = 20;
-            this.label6.Text = "NOD(N, M)    ";
+            this.label6.Text = "НОД(N, M)    ";
             // 
             // buttonSearchTask2
             // 
@@ -144,11 +145,11 @@
             this.buttonSearchTask2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonSearchTask2.ForeColor = System.Drawing.Color.Transparent;
             this.buttonSearchTask2.Location = new System.Drawing.Point(631, 149);
-            this.buttonSearchTask2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonSearchTask2.Margin = new System.Windows.Forms.Padding(4);
             this.buttonSearchTask2.Name = "buttonSearchTask2";
             this.buttonSearchTask2.Size = new System.Drawing.Size(189, 48);
             this.buttonSearchTask2.TabIndex = 21;
-            this.buttonSearchTask2.Text = "Вести";
+            this.buttonSearchTask2.Text = "Найти";
             this.buttonSearchTask2.UseVisualStyleBackColor = false;
             this.buttonSearchTask2.Click += new System.EventHandler(this.buttonSearchTask2_Click);
             // 
@@ -157,7 +158,7 @@
             this.textBox1.BackColor = System.Drawing.SystemColors.Window;
             this.textBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox1.Location = new System.Drawing.Point(289, 196);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(332, 32);
@@ -176,11 +177,22 @@
             this.label7.TabIndex = 23;
             this.label7.Text = "                        ";
             // 
+            // buttonInfo1
+            // 
+            this.buttonInfo1.Image = global::WindowsFormsDeviders.Properties.Resources.information_symbol_in_a_square1;
+            this.buttonInfo1.Location = new System.Drawing.Point(11, 38);
+            this.buttonInfo1.Name = "buttonInfo1";
+            this.buttonInfo1.Size = new System.Drawing.Size(36, 37);
+            this.buttonInfo1.TabIndex = 24;
+            this.buttonInfo1.UseVisualStyleBackColor = true;
+            this.buttonInfo1.Click += new System.EventHandler(this.buttonInfo1_Click);
+            // 
             // Task6UserControl6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
+            this.Controls.Add(this.buttonInfo1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.buttonSearchTask2);
@@ -192,7 +204,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Task6UserControl6";
             this.Size = new System.Drawing.Size(1175, 622);
             this.ResumeLayout(false);
@@ -213,5 +225,6 @@
         private System.Windows.Forms.Button buttonSearchTask2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button buttonInfo1;
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsDeviders
 {
-    public partial class InfoForm2 : Form
+    public partial class InfoForm4 : Form
     {
-        public InfoForm2()
+        public InfoForm4()
         {
             InitializeComponent();
         }

@@ -1,0 +1,10 @@
+C:\Disk\YandexDisk\Univer\2Semak\Billig\Lab_3\ConsoleAppDeviders\bin\Debug\ConsoleAppDeviders.exe.config
+C:\Disk\YandexDisk\Univer\2Semak\Billig\Lab_3\ConsoleAppDeviders\bin\Debug\ConsoleAppDeviders.exe
+C:\Disk\YandexDisk\Univer\2Semak\Billig\Lab_3\ConsoleAppDeviders\bin\Debug\ConsoleAppDeviders.pdb
+C:\Disk\YandexDisk\Univer\2Semak\Billig\Lab_3\ConsoleAppDeviders\bin\Debug\ClassLibraryDeviders.dll
+C:\Disk\YandexDisk\Univer\2Semak\Billig\Lab_3\ConsoleAppDeviders\bin\Debug\ClassLibraryDeviders.pdb
+C:\Disk\YandexDisk\Univer\2Semak\Billig\Lab_3\ConsoleAppDeviders\obj\Debug\ConsoleAppDeviders.csproj.AssemblyReference.cache
+C:\Disk\YandexDisk\Univer\2Semak\Billig\Lab_3\ConsoleAppDeviders\obj\Debug\ConsoleAppDeviders.csproj.CoreCompileInputs.cache
+C:\Disk\YandexDisk\Univer\2Semak\Billig\Lab_3\ConsoleAppDeviders\obj\Debug\ConsoleA.BDBEB30E.Up2Date
+C:\Disk\YandexDisk\Univer\2Semak\Billig\Lab_3\ConsoleAppDeviders\obj\Debug\ConsoleAppDeviders.exe
+C:\Disk\YandexDisk\Univer\2Semak\Billig\Lab_3\ConsoleAppDeviders\obj\Debug\ConsoleAppDeviders.pdb

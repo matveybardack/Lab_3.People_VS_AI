@@ -1,0 +1,6 @@
+C:\Disk\YandexDisk\Univer\2Semak\Billig\Lab_3\ClassLibraryDeviders\bin\Debug\ClassLibraryDeviders.dll
+C:\Disk\YandexDisk\Univer\2Semak\Billig\Lab_3\ClassLibraryDeviders\bin\Debug\ClassLibraryDeviders.pdb
+C:\Disk\YandexDisk\Univer\2Semak\Billig\Lab_3\ClassLibraryDeviders\obj\Debug\ClassLibraryDeviders.csproj.AssemblyReference.cache
+C:\Disk\YandexDisk\Univer\2Semak\Billig\Lab_3\ClassLibraryDeviders\obj\Debug\ClassLibraryDeviders.csproj.CoreCompileInputs.cache
+C:\Disk\YandexDisk\Univer\2Semak\Billig\Lab_3\ClassLibraryDeviders\obj\Debug\ClassLibraryDeviders.dll
+C:\Disk\YandexDisk\Univer\2Semak\Billig\Lab_3\ClassLibraryDeviders\obj\Debug\ClassLibraryDeviders.pdb

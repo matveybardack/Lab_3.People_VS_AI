@@ -69,8 +69,13 @@ namespace WindowsFormsDeviders
 
         private void buttonInfo1_Click(object sender, EventArgs e)
         {
-            InfoForm1 infoForm1 = new InfoForm1();
+            InfoForm1 infoForm1 = new InfoForm1(0);
             infoForm1.ShowDialog();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

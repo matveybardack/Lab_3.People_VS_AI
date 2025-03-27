@@ -37,5 +37,11 @@ namespace WindowsFormsDeviders
                 MessageBox.Show("Пожалуйста, введите натуральные числа для m и n.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void buttonInfo6_Click(object sender, EventArgs e)
+        {
+            InfoForm1 infoForm1 = new InfoForm1(5);
+            infoForm1.ShowDialog();
+        }
     }
 }

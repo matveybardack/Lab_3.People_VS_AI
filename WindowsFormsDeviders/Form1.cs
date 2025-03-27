@@ -29,22 +29,6 @@ namespace WindowsFormsDeviders
             panelTaskContainer.Controls.Add(taskControl);
         }
 
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panelTaskContainer_Paint(object sender, PaintEventArgs e)
-        {
-            
-        }
-
         private void buttonTask1_Click(object sender, EventArgs e)
         {
             var task1 = new Task1UserControl1(); // Создаем экземпляр UserControl для задачи 1
@@ -85,6 +69,11 @@ namespace WindowsFormsDeviders
         {
             var task7 = new Task7UserControl7(); // Создаем экземпляр UserControl для задачи 1
             ShowTask(task7); // Отображаем его на панели
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

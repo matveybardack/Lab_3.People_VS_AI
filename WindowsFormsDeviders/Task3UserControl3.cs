@@ -20,19 +20,30 @@ namespace WindowsFormsDeviders
 
         private void buttonSearchTask2_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Clear();
-            if (int .TryParse(textBoxN.Text, out int N) && N > 1)
+            textBox1.Text = string.Empty;
+            if (int.TryParse(textBoxN.Text, out int N) && N > 1)
             {
                 var primeFactorio = ClassDividers.Factoria(N);
+                int i = 0;
                 foreach (var factor in primeFactorio)
                 {
-                    listBox1.Items.Add(factor);
+                    i++;
+                    if (i != primeFactorio.Count)
+                        textBox1.Text += String.Format("{0} * ", factor);
+                    else
+                        textBox1.Text += String.Format("{0}", factor);
                 }
             }
             else
             {
                 MessageBox.Show("Пожалуйста, введите натуральное число больше 1.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void buttonInfo3_Click(object sender, EventArgs e)
+        {
+            InfoForm1 infoForm1 = new InfoForm1(2);
+            infoForm1.ShowDialog();
         }
     }
 }

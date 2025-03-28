@@ -1,65 +1,69 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\",
+  "WorkspaceRootPath": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|c:\\disk\\yandexdisk\\univer\\repos\\peoples_vs_ai_test\\windowsformsdeviders\\task1usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|solutionrelative:windowsformsdeviders\\task1usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|c:\\disk\\yandexdisk\\univer\\2semak\\billig\\lab_3\\windowsformsdeviders\\infoform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|solutionrelative:windowsformsdeviders\\infoform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\windowsformsdeviders\\infoform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\windowsformsdeviders\\infoform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|solutionrelative:windowsformsdeviders\\infoform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\windowsformsdeviders\\task7usercontrol7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\windowsformsdeviders\\task1usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|solutionrelative:windowsformsdeviders\\task1usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\windowsformsdeviders\\task7usercontrol7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|solutionrelative:windowsformsdeviders\\task7usercontrol7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\windowsformsdeviders\\task6usercontrol6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|solutionrelative:windowsformsdeviders\\task6usercontrol6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\windowsformsdeviders\\task5usercontrol5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|solutionrelative:windowsformsdeviders\\task5usercontrol5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\windowsformsdeviders\\task3usercontrol3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|solutionrelative:windowsformsdeviders\\task3usercontrol3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\windowsformsdeviders\\task2usercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\windowsformsdeviders\\task2usercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|solutionrelative:windowsformsdeviders\\task2usercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\windowsformsdeviders\\task4usercontrol4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\windowsformsdeviders\\task6usercontrol6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|solutionrelative:windowsformsdeviders\\task6usercontrol6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|c:\\disk\\yandexdisk\\univer\\2semak\\billig\\lab_3\\windowsformsdeviders\\task3usercontrol3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|solutionrelative:windowsformsdeviders\\task3usercontrol3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\windowsformsdeviders\\task5usercontrol5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|solutionrelative:windowsformsdeviders\\task5usercontrol5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\windowsformsdeviders\\task4usercontrol4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|solutionrelative:windowsformsdeviders\\task4usercontrol4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\windowsformsdeviders\\task5usercontrol5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\windowsformsdeviders\\task5usercontrol5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|solutionrelative:windowsformsdeviders\\task5usercontrol5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\windowsformsdeviders\\task5usercontrol5.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\windowsformsdeviders\\task5usercontrol5.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|solutionrelative:windowsformsdeviders\\task5usercontrol5.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\windowsformsdeviders\\task3usercontrol3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\windowsformsdeviders\\task3usercontrol3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|solutionrelative:windowsformsdeviders\\task3usercontrol3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\windowsformsdeviders\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\windowsformsdeviders\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|solutionrelative:windowsformsdeviders\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\windowsformsdeviders\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\windowsformsdeviders\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|solutionrelative:windowsformsdeviders\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\windowsformsdeviders\\task7usercontrol7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\windowsformsdeviders\\task7usercontrol7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|solutionrelative:windowsformsdeviders\\task7usercontrol7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\windowsformsdeviders\\task1usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\windowsformsdeviders\\task1usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B57D0A57-860A-4DD0-B35C-16FB83965993}|WindowsFormsDeviders\\WindowsFormsDeviders.csproj|solutionrelative:windowsformsdeviders\\task1usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -79,10 +83,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "InfoForm1.cs",
+              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\InfoForm1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsDeviders\\InfoForm1.cs",
+              "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\InfoForm1.cs",
+              "RelativeToolTip": "WindowsFormsDeviders\\InfoForm1.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwCsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T07:51:48.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Task1UserControl1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Task1UserControl1.cs",
+              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task1UserControl1.cs",
               "RelativeDocumentMoniker": "WindowsFormsDeviders\\Task1UserControl1.cs",
-              "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Task1UserControl1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task1UserControl1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "WindowsFormsDeviders\\Task1UserControl1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T15:09:44.65Z",
@@ -90,88 +107,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Task7UserControl7.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Task7UserControl7.cs",
+              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task7UserControl7.cs",
               "RelativeDocumentMoniker": "WindowsFormsDeviders\\Task7UserControl7.cs",
               "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task7UserControl7.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "..\\..\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task7UserControl7.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsDeviders\\Task7UserControl7.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T15:04:08.793Z"
+              "WhenOpened": "2025-03-27T15:04:08.793Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Task2UserControl2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task2UserControl2.cs",
+              "RelativeDocumentMoniker": "WindowsFormsDeviders\\Task2UserControl2.cs",
+              "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task2UserControl2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsDeviders\\Task2UserControl2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T17:00:21.466Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Task2UserControl2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Task2UserControl2.cs",
-              "RelativeDocumentMoniker": "WindowsFormsDeviders\\Task2UserControl2.cs",
-              "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task2UserControl2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "..\\..\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task2UserControl2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T17:00:21.466Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Task3UserControl3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Task3UserControl3.cs",
+              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task3UserControl3.cs",
               "RelativeDocumentMoniker": "WindowsFormsDeviders\\Task3UserControl3.cs",
               "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task3UserControl3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "..\\..\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task3UserControl3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsDeviders\\Task3UserControl3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T16:53:13.556Z"
+              "WhenOpened": "2025-03-27T16:53:13.556Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "InfoForm1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\InfoForm1.cs",
+              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\InfoForm1.cs",
               "RelativeDocumentMoniker": "WindowsFormsDeviders\\InfoForm1.cs",
               "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\InfoForm1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "..\\..\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\InfoForm1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsDeviders\\InfoForm1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T14:54:18.66Z"
+              "WhenOpened": "2025-03-27T14:54:18.66Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Task6UserControl6.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Task6UserControl6.cs",
+              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task6UserControl6.cs",
               "RelativeDocumentMoniker": "WindowsFormsDeviders\\Task6UserControl6.cs",
               "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task6UserControl6.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "..\\..\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task6UserControl6.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsDeviders\\Task6UserControl6.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T14:57:52.107Z"
+              "WhenOpened": "2025-03-27T14:57:52.107Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Task5UserControl5.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Task5UserControl5.cs",
+              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task5UserControl5.cs",
               "RelativeDocumentMoniker": "WindowsFormsDeviders\\Task5UserControl5.cs",
               "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task5UserControl5.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "..\\..\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task5UserControl5.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsDeviders\\Task5UserControl5.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T14:54:12.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Task4UserControl4.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Task4UserControl4.cs",
+              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task4UserControl4.cs",
               "RelativeDocumentMoniker": "WindowsFormsDeviders\\Task4UserControl4.cs",
               "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task4UserControl4.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "..\\..\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task4UserControl4.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsDeviders\\Task4UserControl4.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T14:37:39.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Task5UserControl5.cs",
-              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Task5UserControl5.cs",
+              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task5UserControl5.cs",
               "RelativeDocumentMoniker": "WindowsFormsDeviders\\Task5UserControl5.cs",
-              "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Task5UserControl5.cs",
+              "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task5UserControl5.cs",
               "RelativeToolTip": "WindowsFormsDeviders\\Task5UserControl5.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAuwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -179,11 +201,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Task5UserControl5.Designer.cs",
-              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Task5UserControl5.Designer.cs",
+              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task5UserControl5.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsDeviders\\Task5UserControl5.Designer.cs",
-              "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Task5UserControl5.Designer.cs",
+              "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task5UserControl5.Designer.cs",
               "RelativeToolTip": "WindowsFormsDeviders\\Task5UserControl5.Designer.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAmwEkAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -191,22 +213,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Form1.cs",
+              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Form1.cs",
               "RelativeDocumentMoniker": "WindowsFormsDeviders\\Form1.cs",
               "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "..\\..\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsDeviders\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T15:32:29.158Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Form1.cs",
+              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Form1.cs",
               "RelativeDocumentMoniker": "WindowsFormsDeviders\\Form1.cs",
-              "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Form1.cs",
+              "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Form1.cs",
               "RelativeToolTip": "WindowsFormsDeviders\\Form1.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwCEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -214,11 +236,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Task3UserControl3.cs",
-              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Task3UserControl3.cs",
+              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task3UserControl3.cs",
               "RelativeDocumentMoniker": "WindowsFormsDeviders\\Task3UserControl3.cs",
-              "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Task3UserControl3.cs",
+              "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task3UserControl3.cs",
               "RelativeToolTip": "WindowsFormsDeviders\\Task3UserControl3.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowC4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -226,27 +248,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Task7UserControl7.cs",
-              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Task7UserControl7.cs",
+              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task7UserControl7.cs",
               "RelativeDocumentMoniker": "WindowsFormsDeviders\\Task7UserControl7.cs",
-              "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Task7UserControl7.cs",
+              "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task7UserControl7.cs",
               "RelativeToolTip": "WindowsFormsDeviders\\Task7UserControl7.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAqwBcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T15:14:38.537Z"
+              "WhenOpened": "2025-03-27T15:14:38.537Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Task1UserControl1.cs",
-              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Task1UserControl1.cs",
+              "DocumentMoniker": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task1UserControl1.cs",
               "RelativeDocumentMoniker": "WindowsFormsDeviders\\Task1UserControl1.cs",
-              "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\repos\\Peoples_VS_AI_Test\\WindowsFormsDeviders\\Task1UserControl1.cs",
+              "ToolTip": "C:\\Disk\\YandexDisk\\Univer\\2Semak\\Billig\\Lab_3\\WindowsFormsDeviders\\Task1UserControl1.cs",
               "RelativeToolTip": "WindowsFormsDeviders\\Task1UserControl1.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAqwE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T15:09:59.261Z"
+              "WhenOpened": "2025-03-27T15:09:59.261Z",
+              "EditorCaption": ""
             }
           ]
         }

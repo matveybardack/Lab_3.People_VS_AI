@@ -28,7 +28,7 @@ namespace WindowsFormsDeviders
                     MessageBox.Show("Пожалуйста, введите натуральные числа для m и n.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
-
+                // Вывод НОД(N,M)
                 int nod = ClassDividers.NOD(m, n);
                 textBox1.Text = nod.ToString();
             }
@@ -37,7 +37,7 @@ namespace WindowsFormsDeviders
                 MessageBox.Show("Пожалуйста, введите натуральные числа для m и n.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
+        // Вызов формы со справкой
         private void buttonInfo6_Click(object sender, EventArgs e)
         {
             InfoForm1 infoForm1 = new InfoForm1(5);

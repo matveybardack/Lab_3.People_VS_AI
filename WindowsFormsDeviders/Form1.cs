@@ -71,7 +71,7 @@ namespace WindowsFormsDeviders
             ShowTask(task7); // Отображаем его на панели
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) // Выход из приложения на кнопку
         {
             Application.Exit();
         }

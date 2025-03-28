@@ -18,16 +18,6 @@ namespace WindowsFormsDeviders
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void buttonSearchTask1_Click(object sender, EventArgs e)
         {
             listBox1Dividers.Items.Clear();
@@ -38,7 +28,7 @@ namespace WindowsFormsDeviders
                     MessageBox.Show("Пожалуйста, введите натуральное число.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
-
+                //Заполнение списка делителей
                 var dividers = ClassDividers.Dividers(number);
                 var sortDivaiders = dividers.OrderBy(x => x);
                 foreach (var divider in sortDivaiders)
@@ -51,31 +41,11 @@ namespace WindowsFormsDeviders
                 MessageBox.Show("Пожалуйста, введите натуральное число.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Task1UserControl1_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void listBox1Dividers_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
+        // Вызов формы со справкой
         private void buttonInfo1_Click(object sender, EventArgs e)
         {
             InfoForm1 infoForm1 = new InfoForm1(0);
             infoForm1.ShowDialog();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

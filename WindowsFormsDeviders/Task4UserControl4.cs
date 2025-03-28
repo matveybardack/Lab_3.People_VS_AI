@@ -23,6 +23,7 @@ namespace WindowsFormsDeviders
             listBox1.Items.Clear();
             if (int.TryParse(textBoxN.Text, out int N) && N > 0)
             {
+                // Вывод первых N простых чисел
                 var primeNumbers = ClassDividers.ProstDiv(N);
                 foreach (var prime in primeNumbers)
                 {
@@ -34,7 +35,7 @@ namespace WindowsFormsDeviders
                 MessageBox.Show("Пожалуйста, введите натуральное число.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
+        // Вызов формы со справкой
         private void buttonInfo4_Click(object sender, EventArgs e)
         {
             InfoForm1 infoForm1 = new InfoForm1(3);

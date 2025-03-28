@@ -48,7 +48,6 @@
             this.label1.Size = new System.Drawing.Size(422, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "Задача 1. Поиск делителей числа";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1
             // 
@@ -60,7 +59,6 @@
             this.textBox1.Size = new System.Drawing.Size(189, 30);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "0";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
@@ -72,7 +70,6 @@
             this.label2.Size = new System.Drawing.Size(177, 33);
             this.label2.TabIndex = 2;
             this.label2.Text = "Введите N:     ";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -108,7 +105,6 @@
             this.listBox1Dividers.Name = "listBox1Dividers";
             this.listBox1Dividers.Size = new System.Drawing.Size(87, 214);
             this.listBox1Dividers.TabIndex = 9;
-            this.listBox1Dividers.SelectedIndexChanged += new System.EventHandler(this.listBox1Dividers_SelectedIndexChanged);
             // 
             // buttonInfo1
             // 
@@ -135,7 +131,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Task1UserControl1";
             this.Size = new System.Drawing.Size(651, 370);
-            this.Load += new System.EventHandler(this.Task1UserControl1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

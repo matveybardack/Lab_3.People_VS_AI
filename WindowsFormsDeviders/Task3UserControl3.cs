@@ -23,6 +23,7 @@ namespace WindowsFormsDeviders
             textBox1.Text = string.Empty;
             if (int.TryParse(textBoxN.Text, out int N) && N > 1)
             {
+                //Вывод факторизации числа
                 var primeFactorio = ClassDividers.Factoria(N);
                 int i = 0;
                 foreach (var factor in primeFactorio)
@@ -39,7 +40,7 @@ namespace WindowsFormsDeviders
                 MessageBox.Show("Пожалуйста, введите натуральное число больше 1.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
+        // Вызов формы со справкой
         private void buttonInfo3_Click(object sender, EventArgs e)
         {
             InfoForm1 infoForm1 = new InfoForm1(2);

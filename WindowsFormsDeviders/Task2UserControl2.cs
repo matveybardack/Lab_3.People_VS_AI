@@ -18,11 +18,6 @@ namespace WindowsFormsDeviders
             InitializeComponent();
         }
 
-        private void textBoxM_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void buttonSearchTask2_Click(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
@@ -39,7 +34,7 @@ namespace WindowsFormsDeviders
                     MessageBox.Show("Левый конец отрезка (M) должен быть не больше правого (N)", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
-
+                // Заполнение списка чисел с 5ю делителями
                 var numbersWithFiveDividers = ClassDividers.FiveDividers(m, n);
                 foreach (var numbers in numbersWithFiveDividers)
                 { listBox1.Items.Add(numbers);}
@@ -49,7 +44,7 @@ namespace WindowsFormsDeviders
                 MessageBox.Show("Пожалуйста, введите натуральные числа для M и N.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
+        // Вызов формы со справкой
         private void buttonInfo2_Click(object sender, EventArgs e)
         {
             InfoForm1 infoForm1 = new InfoForm1(1);

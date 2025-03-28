@@ -37,37 +37,37 @@ namespace WindowsFormsDeviders
 
         private void buttonTask2_Click(object sender, EventArgs e)
         {
-            var task2 = new Task2UserControl2(); // Создаем экземпляр UserControl для задачи 1
+            var task2 = new Task2UserControl2(); // Создаем экземпляр UserControl для задачи 2
             ShowTask(task2); // Отображаем его на панели
         }
 
         private void buttonTask3_Click(object sender, EventArgs e)
         {
-            var task3 = new Task3UserControl3(); // Создаем экземпляр UserControl для задачи 1
+            var task3 = new Task3UserControl3(); // Создаем экземпляр UserControl для задачи 3
             ShowTask(task3); // Отображаем его на панели
         }
 
         private void buttonTask4_Click(object sender, EventArgs e)
         {
-            var task4 = new Task4UserControl4(); // Создаем экземпляр UserControl для задачи 1
+            var task4 = new Task4UserControl4(); // Создаем экземпляр UserControl для задачи 4
             ShowTask(task4); // Отображаем его на панели
         }
 
         private void buttonTask5_Click(object sender, EventArgs e)
         {
-            var task5 = new Task5UserControl5(); // Создаем экземпляр UserControl для задачи 1
+            var task5 = new Task5UserControl5(); // Создаем экземпляр UserControl для задачи 5
             ShowTask(task5); // Отображаем его на панели
         }
 
         private void buttonTask6_Click(object sender, EventArgs e)
         {
-            var task6 = new Task6UserControl6(); // Создаем экземпляр UserControl для задачи 1
+            var task6 = new Task6UserControl6(); // Создаем экземпляр UserControl для задачи 6
             ShowTask(task6); // Отображаем его на панели
         }
 
         private void buttonTask7_Click(object sender, EventArgs e)
         {
-            var task7 = new Task7UserControl7(); // Создаем экземпляр UserControl для задачи 1
+            var task7 = new Task7UserControl7(); // Создаем экземпляр UserControl для задачи 7
             ShowTask(task7); // Отображаем его на панели
         }
 
